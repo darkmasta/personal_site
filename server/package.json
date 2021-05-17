@@ -21,7 +21,6 @@
     "core-js": "2.5.7",
     "cron": "^1.7.2",
     "crypto-js": "^4.0.0",
-    "dotenv": "^6.0.0",
     "events": "^3.0.0",
     "express": "^4.16.3",
     "express-async-handler": "^1.1.3",
