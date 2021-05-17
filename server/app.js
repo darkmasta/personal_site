@@ -36,13 +36,6 @@ app.get('/', function (req, res) {
   res.render('index.html')
 })
 
-app.get('/images/:id', jsonParser, function (req, res) {
-  var id = req.params.id
-
-  path.resolve('temp/index.html')
-  res.sendFile(id, { root: './images' })
-})
-
 app.listen(PORT, () => console.log(`Listening on port ${PORT}!`))
 
 // httpServer = http.createServer(app);
